@@ -31,7 +31,9 @@ int main(void){
     cout << "What is the temperature in degrees Fahrenheit? ";
     cin >> TempF;
     
-    cout << "\n" << TempF << " degrees Fahrenheit = " << FahrenheitToCelcius(TempF) << " degrees Celsius"; 
+    cout << "\n" << TempF << " degrees Fahrenheit = " << FahrenheitToCelcius(TempF) << " degrees Celsius";
+    
+    return 0;
     
 }
 
